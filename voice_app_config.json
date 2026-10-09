@@ -1,0 +1,259 @@
+{
+  "api_key": "",
+  "output_dir": "C:\\Users\\ginto\\Documents\\VoiceStudio",
+  "voice": "Algieba · Smooth",
+  "styles": {
+    "Dramatic": "Dramatic",
+    "Mysterious": "Say this in a low, hushed, mysterious male voice. Slow and suspenseful, with whispers, long pauses, and a haunting tone",
+    "Energetic": "Say this with high energy and genuine excitement like a hyped anime YouTuber, varied pitch, fast pace, emphasis on key words",
+    "Romance": "Say this in a warm, soft, tender male voice, intimate and affectionate, gentle pace, with a slight smile in the voice",
+    "Deep Narrator": "Say this as a deep, warm male audiobook narrator, steady and clear. Expressive, natural delivery with real emotion",
+    "Mystery Man": "Say this as a low, slow, suspenseful male voice with long pauses. Expressive, natural delivery with real emotion",
+    "Noir Detective": "Say this as a gritty 1940s male noir detective narrating in a tired, low voice. Expressive, natural delivery with real emotion",
+    "Trailer God": "Say this as an epic male movie-trailer announcer, booming and intense. Expressive, natural delivery with real emotion",
+    "Old Wizard": "Say this as a wise, ancient male wizard, slow and magical. Expressive, natural delivery with real emotion",
+    "Wise Elder": "Say this as a calm grandfatherly male elder sharing wisdom. Expressive, natural delivery with real emotion",
+    "Villain": "Say this as a smooth, menacing male villain, quiet and threatening. Expressive, natural delivery with real emotion",
+    "Dark Lord": "Say this as a booming, terrifying male dark overlord. Expressive, natural delivery with real emotion",
+    "Hero": "Say this as a confident, inspiring male hero. Expressive, natural delivery with real emotion",
+    "News Anchor": "Say this as a neutral, professional male news anchor. Expressive, natural delivery with real emotion",
+    "Documentary Sage": "Say this as a calm male nature-documentary narrator. Expressive, natural delivery with real emotion",
+    "Radio DJ": "Say this as a smooth late-night male radio host. Expressive, natural delivery with real emotion",
+    "Bedtime Dad": "Say this as a warm, gentle male dad reading a bedtime story. Expressive, natural delivery with real emotion",
+    "Drill Sergeant": "Say this as a loud, commanding male drill sergeant. Expressive, natural delivery with real emotion",
+    "Sports Commentator": "Say this as a fast, excited male sports commentator. Expressive, natural delivery with real emotion",
+    "Anime Hero": "Say this as an energetic male anime protagonist. Expressive, natural delivery with real emotion",
+    "Calm Teacher": "Say this as a patient, clear male teacher explaining. Expressive, natural delivery with real emotion",
+    "Street Storyteller": "Say this as a casual, expressive male storyteller by a campfire. Expressive, natural delivery with real emotion",
+    "Horror Whisper": "Say this as a creepy male whisper building slow dread. Expressive, natural delivery with real emotion",
+    "Young Vlogger": "Say this as an upbeat young male YouTuber. Expressive, natural delivery with real emotion"
+  },
+  "last_style": "Dramatic",
+  "speed": 1.0,
+  "engine": "gemini",
+  "edge_voice": "Steffan · US",
+  "pitch": 0.0,
+  "local_voice": "cloneit",
+  "local_styles": {
+    "Dramatic": {
+      "emotion": 0.9,
+      "pace": 0.3,
+      "temp": 0.9,
+      "pause": 0.5,
+      "chunk": 180,
+      "pitch": -1,
+      "speed": 0.95
+    },
+    "Mysterious": {
+      "emotion": 0.75,
+      "pace": 0.2,
+      "temp": 0.75,
+      "pause": 0.8,
+      "chunk": 150,
+      "pitch": -2,
+      "speed": 0.92
+    },
+    "Energetic": {
+      "emotion": 0.95,
+      "pace": 0.5,
+      "temp": 0.95,
+      "pause": 0.2,
+      "chunk": 150,
+      "pitch": 1,
+      "speed": 1.1
+    },
+    "Romance": {
+      "emotion": 0.6,
+      "pace": 0.35,
+      "temp": 0.8,
+      "pause": 0.5,
+      "chunk": 200,
+      "pitch": -1,
+      "speed": 0.95
+    },
+    "Deep Narrator": {
+      "emotion": 0.6,
+      "pace": 0.3,
+      "temp": 0.7,
+      "pause": 0.5,
+      "chunk": 220,
+      "pitch": -3,
+      "speed": 0.95
+    },
+    "Mystery Man": {
+      "emotion": 0.75,
+      "pace": 0.2,
+      "temp": 0.75,
+      "pause": 0.8,
+      "chunk": 150,
+      "pitch": -2,
+      "speed": 0.92
+    },
+    "Noir Detective": {
+      "emotion": 0.5,
+      "pace": 0.25,
+      "temp": 0.7,
+      "pause": 0.6,
+      "chunk": 180,
+      "pitch": -2.5,
+      "speed": 0.93
+    },
+    "Trailer God": {
+      "emotion": 1.0,
+      "pace": 0.25,
+      "temp": 0.8,
+      "pause": 0.7,
+      "chunk": 130,
+      "pitch": -4,
+      "speed": 0.9
+    },
+    "Old Wizard": {
+      "emotion": 0.7,
+      "pace": 0.25,
+      "temp": 0.85,
+      "pause": 0.6,
+      "chunk": 170,
+      "pitch": -1.5,
+      "speed": 0.88
+    },
+    "Wise Elder": {
+      "emotion": 0.55,
+      "pace": 0.3,
+      "temp": 0.75,
+      "pause": 0.55,
+      "chunk": 200,
+      "pitch": -1,
+      "speed": 0.9
+    },
+    "Villain": {
+      "emotion": 0.9,
+      "pace": 0.2,
+      "temp": 0.85,
+      "pause": 0.65,
+      "chunk": 150,
+      "pitch": -3,
+      "speed": 0.92
+    },
+    "Dark Lord": {
+      "emotion": 1.0,
+      "pace": 0.15,
+      "temp": 0.8,
+      "pause": 0.9,
+      "chunk": 120,
+      "pitch": -5,
+      "speed": 0.85
+    },
+    "Hero": {
+      "emotion": 0.85,
+      "pace": 0.35,
+      "temp": 0.85,
+      "pause": 0.35,
+      "chunk": 170,
+      "pitch": -1,
+      "speed": 1.0
+    },
+    "News Anchor": {
+      "emotion": 0.35,
+      "pace": 0.6,
+      "temp": 0.6,
+      "pause": 0.2,
+      "chunk": 280,
+      "pitch": -1,
+      "speed": 1.05
+    },
+    "Documentary Sage": {
+      "emotion": 0.45,
+      "pace": 0.35,
+      "temp": 0.65,
+      "pause": 0.4,
+      "chunk": 260,
+      "pitch": -1.5,
+      "speed": 0.95
+    },
+    "Radio DJ": {
+      "emotion": 0.8,
+      "pace": 0.5,
+      "temp": 0.9,
+      "pause": 0.2,
+      "chunk": 200,
+      "pitch": -1,
+      "speed": 1.1
+    },
+    "Bedtime Dad": {
+      "emotion": 0.55,
+      "pace": 0.3,
+      "temp": 0.75,
+      "pause": 0.5,
+      "chunk": 200,
+      "pitch": -1,
+      "speed": 0.9
+    },
+    "Drill Sergeant": {
+      "emotion": 1.1,
+      "pace": 0.55,
+      "temp": 0.9,
+      "pause": 0.2,
+      "chunk": 100,
+      "pitch": -2,
+      "speed": 1.1
+    },
+    "Sports Commentator": {
+      "emotion": 1.0,
+      "pace": 0.6,
+      "temp": 0.95,
+      "pause": 0.15,
+      "chunk": 120,
+      "pitch": 0,
+      "speed": 1.15
+    },
+    "Anime Hero": {
+      "emotion": 0.95,
+      "pace": 0.45,
+      "temp": 0.95,
+      "pause": 0.3,
+      "chunk": 150,
+      "pitch": 1,
+      "speed": 1.05
+    },
+    "Calm Teacher": {
+      "emotion": 0.4,
+      "pace": 0.4,
+      "temp": 0.65,
+      "pause": 0.4,
+      "chunk": 240,
+      "pitch": 0,
+      "speed": 0.95
+    },
+    "Street Storyteller": {
+      "emotion": 0.8,
+      "pace": 0.4,
+      "temp": 0.9,
+      "pause": 0.35,
+      "chunk": 180,
+      "pitch": -0.5,
+      "speed": 1.0
+    },
+    "Horror Whisper": {
+      "emotion": 0.85,
+      "pace": 0.15,
+      "temp": 0.85,
+      "pause": 1.0,
+      "chunk": 110,
+      "pitch": -2,
+      "speed": 0.85
+    },
+    "Young Vlogger": {
+      "emotion": 0.75,
+      "pace": 0.5,
+      "temp": 0.9,
+      "pause": 0.2,
+      "chunk": 180,
+      "pitch": 1.5,
+      "speed": 1.1
+    }
+  },
+  "version": 2,
+  "last_local_style": "Dramatic",
+  "edge_hindi_voice": "Swara · Hindi (female)",
+  "language": "Auto (Hindi + English)"
+}
